@@ -40,7 +40,7 @@ clf = clf.fit(features, labels)
 
 # -----------------------------------------------------------------
 # hard code--
-print("\n0 = Cat, 1 = Dog ")
+print("\n 0 = Cat, 1 = Dog ")
 print("This is the cat example ")
 print("features_height_in = 9.1, features_weight_lbs = 7.9")
 # prediction area
@@ -49,7 +49,7 @@ numeric_result = clf.predict([[9.1, 7.9]])
 display_prediction_result(numeric_result)
 
 # hard code--
-print("\n0 = Cat, 1 = Dog ")
+print("\n 0 = Cat, 1 = Dog ")
 print("This is the cat example ")
 print("features_height_in = 9.45, features_weight_lbs = 8.7")
 # prediction area
@@ -58,7 +58,7 @@ numeric_result = clf.predict([[9.45, 8.7]])
 display_prediction_result(numeric_result)
 
 # hard code--
-print("\n0 = Cat, 1 = Dog ")
+print("\n 0 = Cat, 1 = Dog ")
 print("This is the dog example ")
 print("features_height_in = 30, features_weight_lbs = 35")
 # prediction area
@@ -67,14 +67,14 @@ numeric_result = clf.predict([[30, 35]])
 display_prediction_result(numeric_result)
 
 # hard code--
-print("\n0 = Cat, 1 = Dog ")
+print("\n 0 = Cat, 1 = Dog ")
 print("This is the dog example ")
 print("features_height_in = 44, features_weight_lbs = 80")
 # prediction area
 numeric_result = clf.predict([[44, 80]])
 # show prediction area
 display_prediction_result(numeric_result)
-print("\n")
+print("\n" )
 # -----------------------------------------------------------------
 
 print("*" * 50)
